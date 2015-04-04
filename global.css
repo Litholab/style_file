@@ -1,0 +1,294 @@
+/* Stacky 5 by Andrew/Untitled Themes */
+html,body {margin: 0; height: 100%;}
+::selection {color: white;text-shadow: 0px 0px 0px !important;filter:dropshadow(color=#fff, offx=0, offy=0) !important;}
+::-moz-selection {color: white;text-shadow: 0px 0px 0px !important;filter:dropshadow(color=#fff, offx=0, offy=0) !important;}
+* {font-family: Helvetica, Arial, sans-serif;font-size: 12px;line-height: 150%;color: #333;}
+a img {border: none;}
+a {color: #444;font-size: inherit;}
+em,em a,a em {font-family: Georgia, "Times New Roman", Times, serif;font-style: italic;}
+blockquote {margin: 0;padding: 0 0 0 9px;border-left: 1px #EEE dotted;}
+#top {position: absolute;top: 0;left: 0;width: 0;height: 0;margin: 0;padding: 0;}
+.sidebar {position: absolute;	top: 50px;left: 50px;position: fixed;}
+.sidebar a {text-decoration: none;}
+.sidebar h1 {margin: 0 0 15px 0;line-height: 125%;font-family: Verdana, Helvetica, Arial, sans-serif;font-weight: normal;}
+.sidebar img {width: 100%;margin: 0 0 15px 0;}
+.sidebar .description,.sidebar .description * {font-size: 11px;line-height: 175%;}
+.sidebar .description p,.sidebar .description ul,.sidebar .description ol,.sidebar .description blockquote {margin: 5px;}
+.sidebar .border-top,.sidebar .border-bottom {width: 100%;height: 1px;opacity: 0.1;margin: 10px 0;}
+.sidebar .links p {margin: 7px 0;}
+.sidebar .links a {text-decoration: none;padding: 3px 0;font-family: Verdana, Helvetica, Arial, sans-serif;letter-spacing: 1px;}
+.sidebar .links a:hover,.sidebar .links a.active {color: #FFF;text-shadow: 0px 0px 0px #ffffff;filter: dropshadow(color=#ffffff, offx=0, offy=0);padding: 3px 6px;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;}
+.sidebar .twitter {margin: 15px 0 30px 0;overflow: hidden;}
+.sidebar .twitter .latest_tweet {padding: 0 0 12px 0;background: url(http://static.tumblr.com/jw8fmba/jtQlsyhu6/twitter_border.png) 0 bottom no-repeat;margin: 0 0 3px 0;font-size: 10px;font-family: Georgia, "Times New Roman", Times, serif;font-style: italic;}
+.sidebar .twitter .twitter_username {font-size: 9px;margin: 0 0 2px 0;}
+.sidebar .twitter iframe {width: 61px !important;}
+.sidebar .theme_credit {text-align: center;font-size: 9px;margin: 0;}
+.posts {position: relative;padding: 0 0 0 80px;}
+.search {border: none !important;background: #FFF !important;padding: 10px 14px !important}
+.search:hover {margin: 8px !important;padding: 10px 14px !important;}
+.search .field {width: 220px;background: #FFF;border: none;font-size: 14px;outline: none;}
+.search button {width: 19px;height: 18px;background: url(http://static.tumblr.com/jw8fmba/TiIlsyhth/search.png);border: 0;margin: 0 0 0 6px;cursor: pointer;}
+.post {width: 250px;float: left;position: relative;background: #fff;background: -moz-linear-gradient(top, #fff 0%, #fff 85%, #f9f9f9 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(85%,#fff), color-stop(100%,#f9f9f9));background: -webkit-linear-gradient(top, #fff 0%,#fff 85%,#f9f9f9 100%);background: -o-linear-gradient(top, #fff 0%,#fff 85%,#f9f9f9 100%);background: -ms-linear-gradient(top, #fff 0%,#fff 85%,#f9f9f9 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f9f9f9',GradientType=0 );background: linear-gradient(top, #fff 0%,#fff 85%,#f9f9f9 100%);padding: 14px;margin: 8px;border: 1px solid #fff;-moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.15);-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.15);box-shadow: 2px 2px 3px rgba(0,0,0,0.15);-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;}
+.post h2 {margin: 10px 0 0 0;font-size: 16px;line-height: 18px;letter-spacing: 1px;font-weight: normal;font-family: Verdana, Helvetica, Arial, sans-serif;}
+.post h3 {margin: 5px 0;font-size: 14px;line-height: 16px;letter-spacing: 1px;font-weight: normal;font-family: Verdana, Helvetica, Arial, sans-serif;}
+.post .no_margin {margin-top: 0;}
+.post h2.quote {font-family: Georgia, "Times New Roman", Times, serif;letter-spacing: 0;font-style: italic;}
+.post p,.post li {line-height: 175%;}
+.post p {margin: 10px 0 5px 0;}
+.post ol,.post ul {margin: 3px 0;padding: 0;}
+.post li {margin: 2px 35px;}
+.post .photo_wrapper {position: relative;}
+.post .photo_wrapper a.larger_link {position: absolute; bottom: 10px; right: 10px; width: 25px; height: 25px; background: url(http://static.tumblr.com/jw8fmba/sYdltdcr1/high-res.png); opacity: 0;}
+.post .photo_wrapper:hover a.larger_link {opacity: 1;}
+.post img.main_photo {width: 100%;-moz-border-radius: 1px;-webkit-border-radius: 1px;border-radius: 1px;}
+.post img {max-width: 100%;height: auto;}
+.post .player {border: 1px #F6F6F6 solid;padding: 2px;}
+.post .with_art_player {border: 1px #F6F6F6 solid;border-top: 0;padding: 2px;}
+.post .lines {margin: 0 0 5px 0;}
+.post .lines .line {padding: 10px;}
+.post .lines .odd {}
+.post .lines .even {background: #f6f6f6;}
+.post .tags * {font-size: 11px; font-style: italic;font-family: Georgia, "Times New Roman", Times, serif;}
+.post .tags a {color: #999; text-decoration: none; margin: 0 5px 0 0;}
+.post .post_footer {width: 100%;margin: 5px 0 0 0;}
+.post .has_caption {border-top: 1px #F6F6F6 solid;margin: 10px 0 0 0 !important;}
+.post:hover .has_caption {border-top: 1px #DDD solid;}
+.post .post_footer .meta {padding: 10px 0 0 0;-webkit-user-select: none;-moz-user-select: none;user-select: none;}
+.post .post_footer .meta * {font-size: 9px;font-weight: bold;letter-spacing: 1px;text-transform: uppercase;line-height: 100%;color: #AAA;text-decoration: none;font-family: Verdana, Helvetica, Arial, sans-serif;}
+.post .post_footer .meta .left {text-align: left;}
+.post .post_footer .meta .left a.timeago {padding: 1px 0 1px 16px;background: url(http://static.tumblr.com/jw8fmba/H3Slsyhqo/timeago.png) 0 center no-repeat;}
+.post .post_footer .meta .left a.note_count {padding: 1px 0 1px 14px;margin: 0 0 0 5px;background: url(http://static.tumblr.com/jw8fmba/y85lsyhq0/notes.png) 0 center no-repeat;}
+.post .post_footer .meta .left a.comment_count {padding: 1px 0 1px 21px;margin: 0 0 0 5px;background: url(http://static.tumblr.com/jw8fmba/c83lv79yz/comments.png) 0 center no-repeat;}
+.post .post_footer .meta .right {text-align: right;}
+.post .post_footer .meta .right span.share {padding: 1px 0 1px 14px;background: url(http://static.tumblr.com/jw8fmba/te0lsyhr7/share.png) 0 center no-repeat;}
+.post_footer .share_post_container table#large_table {display: none;}
+.post_footer .share_post_container {background: url(http://static.tumblr.com/jw8fmba/Ilulsyhry/share_bg.png) right 0 no-repeat;padding: 20px 0 0 0;margin: 2px 0 0 0;width: 100%;display: none;}
+.post_footer .share_post_container label {font-size: 11px;}
+.post_footer .share_post_container input.shorturl {width: 135px;-moz-border-radius: 3px;-webkit-border-radius: 3px;margin: 0 0 0 3px;}
+.post ol.notes {padding: 0;margin: 0 5px !important;list-style-type: none;}
+.post ol.notes li.note {border-top: solid 1px #F6F6F6;padding: 6px 0;margin: 0!important;}
+.post ol.notes li.like {background: url(http://assets.tumblr.com/images/note_like.png) right center no-repeat;}
+.post ol.notes li.reblog {background: url(http://assets.tumblr.com/images/note_reblog.png) right center no-repeat;}
+.post ol.notes li.note img.avatar {vertical-align: -4px;margin-right: 10px;width: 16px;height: 16px;}
+.post ol.notes li.note .answer_content {font-weight: normal;}
+.post ol.notes li.note blockquote {border-color: #F6F6F6;padding: 4px 10px;margin: 10px 0px 0px 25px;}
+.post ol.notes li.note blockquote a {text-decoration: none;}
+.pagination {display: none;}
+#tumblr_controls {position: fixed !important;}
+#infscr-loading {text-align: center;position: fixed;left: 45%;bottom: 50px;z-index: 999;padding: 10px;background: #FFF;opacity: 0.9;-moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.15);-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.15);box-shadow: 2px 2px 3px rgba(0,0,0,0.15);-moz-border-radius: 6px;-webkit-border-radius: 6px;border-radius: 6px;}
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+       -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
+
+/*
+ * FancyBox - jQuery Plugin
+ * Simple and fancy lightbox alternative
+ *
+ * Examples and documentation at: http://fancybox.net
+ * 
+ * Copyright (c) 2008 - 2010 Janis Skarnelis
+ * That said, it is hardly a one-person project. Many people have submitted bugs, code, and offered their advice freely. Their support is greatly appreciated.
+ * 
+ * Version: 1.3.4 (11/11/2010)
+ * Requires: jQuery v1.3+
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+
+#fancybox-loading {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	margin-left: -20px;
+	cursor: pointer;
+	overflow: hidden;
+	z-index: 1104;
+	display: none;
+}
+#fancybox-loading div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 480px;
+	background-image: url('http://static.tumblr.com/jw8fmba/udllt5gqc/loading.png');
+}
+#fancybox-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1100;
+	display: none;
+}
+#fancybox-tmp {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	overflow: auto;
+	display: none;
+}
+#fancybox-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0;
+	z-index: 1101;
+	outline: none;
+	display: none;
+}
+#fancybox-outer {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+#fancybox-content {
+	width: 0;
+	height: 0;
+	padding: 0;
+	outline: none;
+	position: relative;
+	overflow: hidden;
+	z-index: 1102;
+}
+#fancybox-hide-sel-frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	z-index: 1101;
+}
+#fancybox-error {
+	color: #444;
+	font: normal 12px/20px Arial;
+	padding: 14px;
+	margin: 0;
+}
+#fancybox-img {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline: none;
+	line-height: 0;
+	vertical-align: top;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+#fancybox-frame {
+	width: 100%;
+	height: 100%;
+	border: none;
+	display: block;
+}
+#fancybox-left, #fancybox-right {
+	position: absolute;
+	bottom: 0px;
+	height: 100%;
+	width: 35%;
+	cursor: pointer;
+	outline: none;
+	z-index: 1102;
+	display: none;
+}
+#fancybox-left {
+	left: 0px;
+}
+#fancybox-right {
+	right: 0px;
+}
+#fancybox-left-ico, #fancybox-right-ico {
+	position: absolute;
+	top: 50%;
+	left: -9999px;
+	width: 30px;
+	height: 30px;
+	margin-top: -15px;
+	cursor: pointer;
+	z-index: 1102;
+	display: block;
+}
+#fancybox-left:hover, #fancybox-right:hover {
+	visibility: visible; /* IE6 */
+}
+#fancybox-left:hover span {
+	left: 20px;
+}
+#fancybox-right:hover span {
+	left: auto;
+	right: 20px;
+}
+.fancybox-bg {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 20px;
+	height: 20px;
+	z-index: 1001;
+}
+#fancybox-title {
+	font-family: Helvetica;
+	font-size: 12px;
+	z-index: 1102;
+}
+.fancybox-title-inside {
+	padding-bottom: 10px;
+	text-align: left;
+	color: #333;
+	background: #000;
+	position: relative;
+}
+.fancybox-title-outside {
+	padding-top: 10px;
+	color: #000;
+}
+.fancybox-title-over {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #000;
+	text-align: left;
+}
+.fancybox-title-float {
+	position: absolute;
+	left: 0;
+	bottom: -20px;
+	height: 32px;
+}
+#fancybox-title-float-wrap {
+	border: none;
+	border-collapse: collapse;
+	width: auto;
+}
+#fancybox-title-float-wrap td {
+	border: none;
+	white-space: nowrap;
+}
